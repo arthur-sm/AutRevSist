@@ -147,6 +147,7 @@ def main():
     tab = Image.open(caminho_tab)
     piz = Image.open(caminho_piz)
     concatena_verticalmente(tab, piz).save(caminho_saida + '\\relatorio.jpg')
+    print('Relatório final criado. O caminho é: {0}'.format(caminho_saida + '\\relatorio.jpg'))
     print('\n \n Fim!')
 
 
